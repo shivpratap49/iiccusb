@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button aria-expanded="false" aria-controls="widget1">Show widget</button>
+    <label for="username">Username</label>
+<input id="username" name="username" aria-describedby="username-desc" />
+<button
+  aria-expanded="false"
+  aria-controls="username-desc"
+  aria-label="Help about username"
+  type="button">
+  <span aria-hidden="true">?</span>
+</button>
+<p id="username-desc" hidden>
+  Your username is the name that you use to log in to this service.
+</p>
+Copy to Clipboard
+Note: The presence of the aria-expanded attribute indicates control. A
+</body>
+</html>
